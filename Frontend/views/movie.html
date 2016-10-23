@@ -1,0 +1,25 @@
+<div class="w3-container" style="padding: 10px">
+    <button class="w3-btn w3-blue" ng-click="add();">Agregar Pelicula</button>
+    <div class="input-control text" style="float: right;">
+        <input type="text" ng-model="search" placeholder="Buscar Pelicula">
+    </div>
+</div>
+<div class="w3-container" style="padding: 10px">
+    <table class="w3-table w3-border w3-bordered w3-striped">
+        <tr>
+            <th>Pelicula</th>
+            <th>Genero</th>
+            <th>Año</th>
+            <th width="25%">Accion</th>
+        </tr>
+        <tr ng-repeat="data in datas | filter:search">
+            <td>{{ data.nombre}}</td>
+            <td>{{ data.genero}}</td>
+            <td>{{ data.ano}}</td>
+            <td style="width: 150px">
+                <button class="w3-btn w3-tiny w3-green" ng-click="edit(data)">Editar</button>
+                <button class="w3-btn w3-tiny w3-red" ng-click="remove(data.id)">Eliminar</button>
+            </td>
+        </tr>
+    </table>
+</div>

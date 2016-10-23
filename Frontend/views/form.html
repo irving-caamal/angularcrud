@@ -1,0 +1,24 @@
+<div class="w3-container">
+    <form name="form" style="
+          margin: auto;
+          width: 60%;
+          padding: 10px;
+          ">
+        <p> 
+            <label class="w3-label">Nombre</label>
+            <input ng-model="post.nombre" class="w3-input" type="text" required>
+        </p>
+        <p> 
+            <label class="w3-label">Genero</label>
+            <input ng-model="post.genero" class="w3-input" type="text" required>
+        </p>
+        <p> 
+            <label class="w3-label">Año</label>
+            <input ng-model="post.ano" class="w3-input" type="text" data-minlength="4" data-maxlength="4" required>
+        </p>
+        <p> 
+            <button class="w3-btn w3-black" ng-click="back();">Atras</button>
+            <button class="w3-btn w3-teal" ng-click="save();" ng-disabled="form.$invalid">Guardar</button>
+        </p>
+    </form>
+</div>

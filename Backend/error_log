@@ -1,0 +1,43 @@
+[22-Oct-2016 13:30:15 America/Chicago] PHP Fatal error:  Call to undefined function getMessage() in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php on line 22
+[22-Oct-2016 13:34:38 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Route callable must be callable' in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php:178
+Stack trace:
+#0 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php(107): Slim\Route->setCallable('getPersons')
+#1 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(443): Slim\Route->__construct('/movie', 'getPersons', true)
+#2 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(473): Slim\Slim->mapRoute(Array)
+#3 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php(8): Slim\Slim->get('/movie', 'getPersons')
+#4 {main}
+  thrown in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php on line 178
+[22-Oct-2016 13:34:42 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Route callable must be callable' in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php:178
+Stack trace:
+#0 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php(107): Slim\Route->setCallable('getPersons')
+#1 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(443): Slim\Route->__construct('/movie', 'getPersons', true)
+#2 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(473): Slim\Slim->mapRoute(Array)
+#3 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php(8): Slim\Slim->get('/movie', 'getPersons')
+#4 {main}
+  thrown in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php on line 178
+[22-Oct-2016 13:35:37 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Route callable must be callable' in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php:178
+Stack trace:
+#0 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php(107): Slim\Route->setCallable('getPersons')
+#1 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(443): Slim\Route->__construct('/movie', 'getPersons', true)
+#2 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(473): Slim\Slim->mapRoute(Array)
+#3 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php(8): Slim\Slim->get('/movie', 'getPersons')
+#4 {main}
+  thrown in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php on line 178
+[22-Oct-2016 13:35:43 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Route callable must be callable' in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php:178
+Stack trace:
+#0 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php(107): Slim\Route->setCallable('getPersons')
+#1 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(443): Slim\Route->__construct('/movie', 'getPersons', true)
+#2 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(473): Slim\Slim->mapRoute(Array)
+#3 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php(8): Slim\Slim->get('/movie', 'getPersons')
+#4 {main}
+  thrown in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php on line 178
+[22-Oct-2016 13:36:43 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Route callable must be callable' in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php:178
+Stack trace:
+#0 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php(107): Slim\Route->setCallable('getPersons')
+#1 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(443): Slim\Route->__construct('/movie', 'getPersons', true)
+#2 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Slim.php(473): Slim\Slim->mapRoute(Array)
+#3 /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php(8): Slim\Slim->get('/movie', 'getPersons')
+#4 {main}
+  thrown in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/Slim/Route.php on line 178
+[22-Oct-2016 13:46:10 America/Chicago] PHP Fatal error:  Call to undefined function getMessage() in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php on line 40
+[22-Oct-2016 13:48:27 America/Chicago] PHP Fatal error:  Call to undefined function getMessage() in /home4/feratran/public_html/www.cancuntours-transfers.com/angular/Backend/index.php on line 40
