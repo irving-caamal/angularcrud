@@ -3,7 +3,9 @@
 require 'Slim/Slim.php';
 
 \Slim\Slim::registerAutoloader();
-
+/**
+**Gran app
+*/
 $app = new \Slim\Slim();
 $app->get('/movie', 'getMovies');
 $app->post('/movie', 'addMovie');
